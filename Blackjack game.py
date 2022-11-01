@@ -26,7 +26,7 @@ while u<21:
     
     elif ask == 'no':
         break
-while c<21:
+while c<u:
     c3 = random.choice(computer_cards)
     c = c3+c
     print("computer pick",c3)
